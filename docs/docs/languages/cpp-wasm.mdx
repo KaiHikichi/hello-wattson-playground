@@ -19,7 +19,7 @@ C++ programs use `cin` for input and `cout` for output. Input is passed from Jav
 JavaScript can interact with the C++ runtime using the `livecodes.cpp` global:
 
 - `livecodes.cpp.input` — set this to pass input to the program (read by `cin`)
-- `livecodes.cpp.run(input?)` — execute the program with optional input, returns a promise that resolves to `{ output, error, exitCode }`
+- `livecodes.cpp.run(input?)` — execute the program with optional input, returns a promise that resolves to `{ input, output, exitCode, error }`
 - `livecodes.cpp.loaded` — a promise that resolves when the runtime is ready
 
 ### Live Reload
