@@ -16,7 +16,7 @@ User code runs in isolation, protected by [sandboxed iframes](https://web.dev/ar
 
 Language compilers and transpilers (TypeScript, SCSS, Babel, etc.) and the compiled result page (the output of your code) run in separate sandboxed iframes on an independent origin.
 
-This allows code execute but prevents untrusted code from accessing the main app's cookies, localStorage, or DOM. All communication with the app uses `postMessage` with strict origin verification.
+This allows code execution but prevents untrusted code from accessing the main app's cookies, localStorage, or DOM. All communication with the app uses `postMessage` with strict origin verification.
 
 ## Embedded Playgrounds
 
