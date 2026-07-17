@@ -1,0 +1,89 @@
+# Security
+
+import MailLink from '../../src/components/MailLink.tsx';
+
+User privacy and security are core to LiveCodes. As a client-side app, your code never leaves your device unless you explicitly choose to share, export, or deploy it.
+
+## Client-Side Architecture
+
+LiveCodes runs entirely in your browser. There is no server-side code execution — all compilation, code transformation, and result rendering happens locally. No account is required, and no personal information is collected for anonymous use.
+
+Your projects, assets, snippets, and settings are stored in your browser's local storage (IndexedDB and localStorage) and never sent to our servers unless you use a feature that requires it (e.g., [short URL sharing](./share.html.md), [sync](./sync.html.md), or [deploy](./deploy.html.md)).
+
+## Sandboxed Execution
+
+User code runs in isolation, protected by [sandboxed iframes](https://web.dev/articles/sandboxed-iframes) on a separate origin from the main app.
+
+Language compilers and transpilers (TypeScript, SCSS, Babel, etc.) and the compiled result page (the output of your code) run in separate sandboxed iframes on an independent origin.
+
+This allows code execution but prevents untrusted code from accessing the main app's cookies, localStorage, or DOM. All communication with the app uses `postMessage` with strict origin verification.
+
+## Embedded Playgrounds
+
+When LiveCodes is [embedded](./embeds.html.md) on third-party websites, the playground runs in its own sandboxed iframe and **cannot access**:
+
+- The parent page's DOM or JavaScript context
+- Cookies from the embedding page's origin
+- localStorage or sessionStorage of the embedding page
+- Any other sensitive data from the host site
+
+The embedding page communicates with the playground only through the [SDK](../sdk/index.html.md), which uses [`postMessage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) with origin validation on both sides.
+
+## Data Storage
+
+### Local Storage
+
+All user data — projects, assets, snippets, templates, and settings — is stored in the browser's IndexedDB and localStorage. This data is tied to the browser profile and device. Data saved anonymously and data saved under a logged-in account are stored separately to prevent cross-user leakage on shared devices.
+
+### Data in Transit
+
+When data does leave your device, it is always encrypted in transit via HTTPS:
+
+- **Share service**: Project code sent to generate short URLs
+- **GitHub Sync**: Projects synced to your private GitHub repo
+- **Deployment**: Result pages pushed to your GitHub Pages repo
+- **GitHub API**: All authenticated requests use HTTPS and token-based auth
+
+## Authentication
+
+[Login with GitHub](./github-integration.html.md) is handled through [Firebase Authentication](https://firebase.google.com/products/auth). Permissions are granted at login time and can be revoked at any time through your [GitHub authorized applications](https://docs.github.com/en/apps/oauth-apps/using-oauth-apps/reviewing-your-authorized-oauth-applications). The app requests only the scopes it needs:
+
+- `gist` scope — for exporting to GitHub Gists
+- `repo` scope (public) — for deployment and asset hosting
+- `repo` scope (private) — for importing from private repos and data sync
+
+Authentication may set cookies on your device. By logging in, you consent to this. Logging out clears session data from the app while preserving your stored projects in local storage.
+
+## Third-Party Dependencies
+
+LiveCodes loads language compilers, runtimes, and libraries from third-party CDNs (jsDelivr, esm.sh, unpkg, etc.) when needed by your selected languages. These dependencies run in the sandboxed compiler iframe, not in the main app context. Module imports in your code are resolved through the same sandbox.
+
+External resources added via the [External Resources](./external-resources.html.md) feature run in the result page sandbox.
+
+## Reporting Vulnerabilities
+
+If you discover a security vulnerability, please **do not** report it publicly. Instead:
+
+- **Email**: <MailLink email="security&#64;livecodes&#46;io" text="security&#64;livecodes&#46;io" />
+- **Contact page**: [livecodes.io/docs/contact](../contact.html.md)
+
+See our [Security Policy](https://github.com/live-codes/livecodes/blob/develop/SECURITY.md) for responsible disclosure guidelines.
+
+For non-security bugs, please file an issue on the [GitHub repo](https://github.com/live-codes/livecodes/issues).
+
+## Self-Hosting
+
+When [self-hosting](./self-hosting.html.md), you control the deployment and can configure additional security measures:
+
+- [Docker setup](../advanced/docker.html.md) with automatic HTTPS via Caddy
+- Separate origin sandbox for code execution
+- Self-hosted share service, CORS proxy, and broadcast server
+- Custom headers and security policies
+
+## Related
+
+- [Privacy Policy](../privacy.html.md)
+- [Terms of Service](../tos.html.md)
+- [Why LiveCodes?](../why.html.md)
+- [Self-Hosting](./self-hosting.html.md)
+- [Embedded Playgrounds](./embeds.html.md)

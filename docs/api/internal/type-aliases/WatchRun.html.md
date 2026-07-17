@@ -1,0 +1,27 @@
+# Type Alias: WatchRun()
+
+> **WatchRun**: (`event`, `fn`) => `object`
+
+Called when running the playground code.
+
+## Parameters
+
+• **event**: `"run"`
+
+• **fn**
+
+## Returns
+
+`object`
+
+### remove()
+
+> **remove**: () => `void`
+
+#### Returns
+
+`void`
+
+## Defined in
+
+[src/sdk/models.ts:1366](https://github.com/KaiHikichi/hello-wattson-playground/blob/0c447ba6e1a90b5177462ea1ede17308208d650a/src/sdk/models.ts#L1366)
