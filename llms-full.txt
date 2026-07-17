@@ -382,7 +382,7 @@ Please consider [becoming a sponsor](https://livecodes.io/docs/sponsor).
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/overview -->
+<!-- Source: https://livecodes.io/livecodes/docs/overview -->
 
 # Overview
 
@@ -399,7 +399,7 @@ import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/why -->
+<!-- Source: https://livecodes.io/livecodes/docs/why -->
 
 # Why Another Playground?
 
@@ -480,7 +480,7 @@ Enough talk, let's get started.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/getting-started -->
+<!-- Source: https://livecodes.io/livecodes/docs/getting-started -->
 
 # Getting Started
 
@@ -629,7 +629,7 @@ Please check the section on [self-hosting](./features/self-hosting.html.md) for 
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/index -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/index -->
 
 # Features
 
@@ -729,7 +729,7 @@ This was a quick overview of the important features of LiveCodes. A more detaile
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/projects -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/projects -->
 
 # Projects
 
@@ -797,7 +797,7 @@ Projects can be [imported](./import.html.md), [exported](./export.html.md), [syn
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/templates -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/templates -->
 
 # Templates
 
@@ -851,7 +851,7 @@ User templates are scoped to the currently [logged-in user](./user-management.ht
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/css -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/css -->
 
 # CSS
 
@@ -999,7 +999,7 @@ Of course, styles and stylesheets can still be added as usual in markup and scri
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/result -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/result -->
 
 # Result Page
 
@@ -1111,7 +1111,7 @@ Example:
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/external-resources -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/external-resources -->
 
 # External Resources
 
@@ -1167,7 +1167,7 @@ CSS presets currently include [Normalize.css](https://necolas.github.io/normaliz
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/tools-pane -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/tools-pane -->
 
 # Tools Pane
 
@@ -1206,7 +1206,7 @@ Demo: (console=full)
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/console -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/console -->
 
 # Console
 
@@ -1247,7 +1247,7 @@ Demo: (Python - print to console)
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/compiled-code -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/compiled-code -->
 
 # Compiled Code
 
@@ -1271,7 +1271,7 @@ This demo shows TypeScript code along with the compiled Javascript code, similar
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/tests -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/tests -->
 
 # Tests
 
@@ -1454,7 +1454,7 @@ The [SDK](../sdk/index.html.md) allows [running tests](../sdk/js-ts.html.md)#run
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/module-resolution -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/module-resolution -->
 
 # Module Resolution
 
@@ -1744,7 +1744,7 @@ Please note that you may also provide [custom type definitions](./intellisense.h
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/intellisense -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/intellisense -->
 
 # IntelliSense
 
@@ -1914,7 +1914,7 @@ export const customModules = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/code-format -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/code-format -->
 
 # Code Format
 
@@ -1971,7 +1971,7 @@ The code format can be programmatically triggered by the [SDK](../sdk/index.html
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/command-menu -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/command-menu -->
 
 # Command Menu
 
@@ -2010,7 +2010,7 @@ If a command has a keyboard shortcut, it will be shown in the command menu. In a
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/keyboard-shortcuts -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/keyboard-shortcuts -->
 
 # Keyboard Shortcuts
 
@@ -2022,7 +2022,7 @@ The code editor shortcuts are the same as VS Code, which can be found [here](htt
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/user-settings -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/user-settings -->
 
 # User Settings
 
@@ -2057,7 +2057,7 @@ User settings are scoped to the currently [logged-in user](./user-management.htm
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/editor-settings -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/editor-settings -->
 
 # Editor Settings
 
@@ -2135,7 +2135,7 @@ In addition to those specified in [Editor Options](#editor-options), the followi
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/i18n -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/i18n -->
 
 # Internationalization (i18n)
 
@@ -2180,7 +2180,7 @@ https://livecodes.io?template=javascript&appLanguage=fr
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/default-template-language -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/default-template-language -->
 
 # Default Template/Language
 
@@ -2207,7 +2207,7 @@ Example: https://livecodes.io?no-defaults
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/assets -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/assets -->
 
 # Assets
 
@@ -2238,7 +2238,7 @@ When an asset item is clicked, the URL is copied to clipboard. The URL can then 
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/snippets -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/snippets -->
 
 # Code Snippets
 
@@ -2271,7 +2271,7 @@ Code snippets can then be copied to clipboard and pasted in projects.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/import -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/import -->
 
 # Import
 
@@ -2475,7 +2475,7 @@ Similarly, [multiple projects exported in bulk](./export.html.md)#exporting-mult
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/export -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/export -->
 
 # Export
 
@@ -2525,7 +2525,7 @@ All the currently visible projects will be exported. If projects are filtered (e
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/share -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/share -->
 
 # Share
 
@@ -2575,19 +2575,19 @@ QR code can be generated for the share URL. This can then be scanned by any QR c
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/welcome -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/welcome -->
 
 # Welcome Screen
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/recover -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/recover -->
 
 # Recover Unsaved
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/code-to-image -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/code-to-image -->
 
 # Code to Image
 
@@ -2615,7 +2615,7 @@ There are multiple presets that can be used or the options can be manually confi
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/display-modes -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/display-modes -->
 
 # Display Modes
 
@@ -2754,7 +2754,7 @@ The same applies for `result` display mode and default view.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/default-view -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/default-view -->
 
 # Default View
 
@@ -2806,7 +2806,7 @@ The same applies for `result` display mode and default view.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/themes -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/themes -->
 
 # Themes
 
@@ -2864,7 +2864,7 @@ Please note that editor themes can be set in the [editor settings](./editor-sett
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/mobile -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/mobile -->
 
 # Mobile Support
 
@@ -2878,7 +2878,7 @@ By default, LiveCodes uses the touch-friendly [CodeMirror 6](https://codemirror.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/embeds -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/embeds -->
 
 # Embedded Playgrounds
 
@@ -3014,7 +3014,7 @@ Some of the features of the full standalone app are not available or shown by de
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/code-prefill -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/code-prefill -->
 
 # Code Prefill
 
@@ -3290,7 +3290,7 @@ If `data-options` contains invalid JSON, a warning is logged to the console and 
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/lite -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/lite -->
 
 # Lite Mode
 
@@ -3326,7 +3326,7 @@ https://livecodes.io?mode=lite
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/read-only -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/read-only -->
 
 # Read-Only
 
@@ -3365,7 +3365,7 @@ https://livecodes.io?template=javascript&readonly
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/permanent-url -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/permanent-url -->
 
 # Permanent URL
 
@@ -3501,7 +3501,7 @@ ${'  '}});
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/data-urls -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/data-urls -->
 
 # Data URLs
 
@@ -3576,7 +3576,7 @@ console.log(sayHello('Ali'));
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/deploy -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/deploy -->
 
 # Deploy
 
@@ -3609,7 +3609,7 @@ The LiveCodes app will remember the repo used to deploy each project, so that la
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/sync -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/sync -->
 
 # Sync
 
@@ -3642,7 +3642,7 @@ The sync can be manually triggered at any time from the Sync UI. Information reg
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/broadcast -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/broadcast -->
 
 # Broadcast
 
@@ -3729,7 +3729,7 @@ This value is saved for the current user across app reloads.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/backup-restore -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/backup-restore -->
 
 # Backup / Restore
 
@@ -3772,7 +3772,7 @@ When restoring a backup, there are 2 options for managing the current data:
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/github-integration -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/github-integration -->
 
 # GitHub Integration
 
@@ -3820,7 +3820,7 @@ To change previously set permissions:
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/integrations -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/integrations -->
 
 # Integrations
 
@@ -4011,7 +4011,7 @@ Full list in the [Credits](../credits.html.md) page.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/user-management -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/user-management -->
 
 # User Management
 
@@ -4053,7 +4053,7 @@ All user management features, including ability to login/logout, access to user 
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/security -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/security -->
 
 # Security
 
@@ -4147,7 +4147,7 @@ When [self-hosting](./self-hosting.html.md), you control the deployment and can 
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/features/self-hosting -->
+<!-- Source: https://livecodes.io/livecodes/docs/features/self-hosting -->
 
 # Self-Hosting
 
@@ -4260,7 +4260,7 @@ createPlayground('#container', options);
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/configuration/index -->
+<!-- Source: https://livecodes.io/livecodes/docs/configuration/index -->
 
 # Configuration
 
@@ -4278,7 +4278,7 @@ A flexible and convenient way to configure the app using URL query parameters
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/configuration/configuration-object -->
+<!-- Source: https://livecodes.io/livecodes/docs/configuration/configuration-object -->
 
 # Configuration Object
 
@@ -5021,7 +5021,7 @@ Configures Prettier [code formatter](../features/code-format.html.md) to use [tr
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/configuration/query-params -->
+<!-- Source: https://livecodes.io/livecodes/docs/configuration/query-params -->
 
 # Query Parameters
 
@@ -5201,7 +5201,7 @@ For usage examples, check [storybook](pathname:///../stories/?path=/story/embed-
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/sdk/index -->
+<!-- Source: https://livecodes.io/livecodes/docs/sdk/index -->
 
 # LiveCodes SDK
 
@@ -5363,7 +5363,7 @@ P.S. You may want to use the "Full Screen" button!
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/sdk/js-ts -->
+<!-- Source: https://livecodes.io/livecodes/docs/sdk/js-ts -->
 
 # JavaScript/<wbr />TypeScript SDK
 
@@ -6029,7 +6029,7 @@ export const sdkDemo = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/sdk/preact -->
+<!-- Source: https://livecodes.io/livecodes/docs/sdk/preact -->
 
 # Preact SDK
 
@@ -6242,7 +6242,7 @@ See [storybook](pathname:///../stories/preact/) for usage examples.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/sdk/react -->
+<!-- Source: https://livecodes.io/livecodes/docs/sdk/react -->
 
 # React SDK
 
@@ -6454,7 +6454,7 @@ See [storybook](pathname:///../stories/react/) for usage examples.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/sdk/solid -->
+<!-- Source: https://livecodes.io/livecodes/docs/sdk/solid -->
 
 # Solid SDK
 
@@ -6667,7 +6667,7 @@ See [storybook](pathname:///../stories/solid/) for usage examples.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/sdk/svelte -->
+<!-- Source: https://livecodes.io/livecodes/docs/sdk/svelte -->
 
 # Svelte SDK
 
@@ -6878,7 +6878,7 @@ See [storybook](pathname:///../stories/svelte/) for usage examples.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/sdk/vue -->
+<!-- Source: https://livecodes.io/livecodes/docs/sdk/vue -->
 
 # Vue SDK
 
@@ -7095,7 +7095,7 @@ See [storybook](pathname:///../stories/vue/) for usage examples.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/sdk/web-components -->
+<!-- Source: https://livecodes.io/livecodes/docs/sdk/web-components -->
 
 # Web Components SDK
 
@@ -7562,7 +7562,7 @@ See [storybook](pathname:///../stories/web-components/) for usage examples.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/sdk/headless -->
+<!-- Source: https://livecodes.io/livecodes/docs/sdk/headless -->
 
 # Headless Mode
 
@@ -7645,7 +7645,7 @@ export const pyDemo = { markup: { language: 'html', content: `<textarea id="edit
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/advanced/index -->
+<!-- Source: https://livecodes.io/livecodes/docs/advanced/index -->
 
 # Advanced Topics {#advanced-topics-custom-content-top}
 
@@ -7658,7 +7658,7 @@ import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/advanced/custom-settings -->
+<!-- Source: https://livecodes.io/livecodes/docs/advanced/custom-settings -->
 
 # Custom Settings
 
@@ -7883,7 +7883,7 @@ Custom settings for different languages and processors can be combined in a sing
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/advanced/services -->
+<!-- Source: https://livecodes.io/livecodes/docs/advanced/services -->
 
 # Services
 
@@ -7912,7 +7912,7 @@ LiveCodes [sponsors](../sponsor.html.md) (Bronze sponsors and above) get access 
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/advanced/docker -->
+<!-- Source: https://livecodes.io/livecodes/docs/advanced/docker -->
 
 # Docker Setup
 
@@ -8190,7 +8190,7 @@ The workflow uses [secrets](https://docs.github.com/en/actions/how-tos/security-
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/index -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/index -->
 
 # Languages
 
@@ -8225,7 +8225,7 @@ import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/art-template -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/art-template -->
 
 # art-template
 
@@ -8361,7 +8361,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/asciidoc -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/asciidoc -->
 
 # AsciiDoc
 
@@ -8447,7 +8447,7 @@ Please note that custom settings should be valid JSON (i.e. functions are not al
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/assemblyscript -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/assemblyscript -->
 
 # AssemblyScript
 
@@ -8577,7 +8577,7 @@ https://livecodes.io/?template=assemblyscript
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/astro -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/astro -->
 
 # Astro
 
@@ -8687,7 +8687,7 @@ const data = await res.json();
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/autoprefixer -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/autoprefixer -->
 
 # Autoprefixer
 
@@ -8787,7 +8787,7 @@ Please note that custom settings should be valid JSON (i.e. functions are not al
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/babel -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/babel -->
 
 # Babel
 
@@ -8848,7 +8848,7 @@ export const params = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/bbcode -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/bbcode -->
 
 # BBCode
 
@@ -8894,7 +8894,7 @@ export const params = {compiled: 'open'};
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/blockly -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/blockly -->
 
 # Blockly
 
@@ -9032,7 +9032,7 @@ https://livecodes.io/?template=blockly
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/civet -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/civet -->
 
 # Civet
 
@@ -9083,7 +9083,7 @@ https://livecodes.io/?template=civet
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/clio -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/clio -->
 
 # Clio
 
@@ -9133,7 +9133,7 @@ https://livecodes.io/?template=clio
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/clojurescript -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/clojurescript -->
 
 # ClojureScript
 
@@ -9205,7 +9205,7 @@ https://livecodes.io/?template=clojurescript
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/coffeescript -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/coffeescript -->
 
 # CoffeeScript
 
@@ -9257,7 +9257,7 @@ https://livecodes.io/?template=coffeescript
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/commonlisp -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/commonlisp -->
 
 # Common Lisp
 
@@ -9324,7 +9324,7 @@ https://livecodes.io/?template=commonlisp
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/cpp-wasm -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/cpp-wasm -->
 
 # C/C++ (Wasm)
 
@@ -9400,7 +9400,7 @@ https://livecodes.io/?template=cpp-wasm
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/cpp -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/cpp -->
 
 # C++
 
@@ -9461,7 +9461,7 @@ https://livecodes.io/?template=cpp
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/csharp-wasm -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/csharp-wasm -->
 
 # C# (Wasm)
 
@@ -9603,7 +9603,7 @@ https://livecodes.io/?template=csharp-wasm
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/css -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/css -->
 
 # CSS
 
@@ -9729,7 +9729,7 @@ Using [Prettier](https://prettier.io/).
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/cssmodules -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/cssmodules -->
 
 # CSS Modules
 
@@ -9986,7 +9986,7 @@ export const params = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/cssnano -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/cssnano -->
 
 # cssnano
 
@@ -10077,7 +10077,7 @@ export const cssnanoConfig = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/diagrams -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/diagrams -->
 
 # Diagrams
 
@@ -10663,7 +10663,7 @@ Example: (<OpenCode id="ey74x6q6cq3"></OpenCode>)
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/dot -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/dot -->
 
 # doT
 
@@ -10798,7 +10798,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/ejs -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/ejs -->
 
 # EJS
 
@@ -10933,7 +10933,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/eta -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/eta -->
 
 # Eta
 
@@ -11058,7 +11058,7 @@ export const config2 = {markup: {language: 'eta', content: 'Hello <%= it.name %>
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/fennel -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/fennel -->
 
 # Fennel
 
@@ -11123,7 +11123,7 @@ https://livecodes.io/?template=fennel
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/flow -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/flow -->
 
 # Flow
 
@@ -11178,7 +11178,7 @@ Please note that custom settings should be valid JSON (i.e. functions are not al
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/gleam -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/gleam -->
 
 # Gleam
 
@@ -11440,7 +11440,7 @@ https://livecodes.io/?template=gleam
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/go-wasm -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/go-wasm -->
 
 # Go (Wasm)
 
@@ -11538,7 +11538,7 @@ https://livecodes.io/?template=go-wasm
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/go -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/go -->
 
 # Go (Golang)
 
@@ -11615,7 +11615,7 @@ https://livecodes.io/?template=go
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/haml -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/haml -->
 
 # Haml
 
@@ -11741,7 +11741,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/handlebars -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/handlebars -->
 
 # Handlebars
 
@@ -11877,7 +11877,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/html -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/html -->
 
 # HTML
 
@@ -11950,7 +11950,7 @@ Using [Prettier](https://prettier.io/).
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/imba -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/imba -->
 
 # Imba
 
@@ -12012,7 +12012,7 @@ https://livecodes.io/?template=imba
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/index -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/index -->
 
 # Languages
 
@@ -12047,7 +12047,7 @@ import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/java -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/java -->
 
 # Java
 
@@ -12174,7 +12174,7 @@ https://livecodes.io/?template=java
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/javascript -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/javascript -->
 
 # JavaScript
 
@@ -12257,7 +12257,7 @@ https://livecodes.io/?template=Javascript
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/jinja -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/jinja -->
 
 # Jinja
 
@@ -12412,7 +12412,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/jsx -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/jsx -->
 
 # JSX
 
@@ -12729,7 +12729,7 @@ Please note that custom settings should be valid JSON (i.e. functions are not al
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/julia -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/julia -->
 
 # Julia
 
@@ -12807,7 +12807,7 @@ https://livecodes.io/?template=julia
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/less -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/less -->
 
 # Less
 
@@ -12953,7 +12953,7 @@ Using [Prettier](https://prettier.io/).
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/lightningcss -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/lightningcss -->
 
 # Lightning CSS
 
@@ -13050,7 +13050,7 @@ Please note that custom settings should be valid JSON (i.e. functions are not al
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/liquid -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/liquid -->
 
 # Liquid
 
@@ -13187,7 +13187,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/livescript -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/livescript -->
 
 # LiveScript
 
@@ -13254,7 +13254,7 @@ https://livecodes.io/?template=livescript
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/lua-wasm -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/lua-wasm -->
 
 # Lua (Wasm)
 
@@ -13325,7 +13325,7 @@ https://livecodes.io/?template=lua-wasm
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/lua -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/lua -->
 
 # Lua
 
@@ -13392,7 +13392,7 @@ https://livecodes.io/?template=lua
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/malina -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/malina -->
 
 # Malina.js
 
@@ -13485,7 +13485,7 @@ https://livecodes.io/?template=malina
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/markdown -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/markdown -->
 
 # Markdown
 
@@ -13668,7 +13668,7 @@ https://livecodes.io/?template=markdown
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/mdx -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/mdx -->
 
 # MDX
 
@@ -13780,7 +13780,7 @@ https://livecodes.io/?template=mdx
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/minizinc -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/minizinc -->
 
 # MiniZinc
 
@@ -13930,7 +13930,7 @@ https://livecodes.io/?template=minizinc
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/mjml -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/mjml -->
 
 # MJML
 
@@ -14002,7 +14002,7 @@ This playground loads a template from the official MJML [email templates](https:
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/mustache -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/mustache -->
 
 # Mustache
 
@@ -14122,7 +14122,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/nunjucks -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/nunjucks -->
 
 # Nunjucks
 
@@ -14242,7 +14242,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/ocaml -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/ocaml -->
 
 # OCaml
 
@@ -14343,7 +14343,7 @@ https://livecodes.io/?template=ocaml
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/perl -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/perl -->
 
 # Perl
 
@@ -14410,7 +14410,7 @@ https://livecodes.io/?template=perl
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/php-wasm -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/php-wasm -->
 
 # PHP (Wasm)
 
@@ -14506,7 +14506,7 @@ https://livecodes.io/?template=php-wasm
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/php -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/php -->
 
 # PHP
 
@@ -14571,7 +14571,7 @@ https://livecodes.io/?template=php
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/postcss -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/postcss -->
 
 # PostCSS
 
@@ -14668,7 +14668,7 @@ export const postcssConfig = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/postcssImportUrl -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/postcssImportUrl -->
 
 # PostCSS Import Url
 
@@ -14759,7 +14759,7 @@ Please note that custom settings should be valid JSON (i.e. functions are not al
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/postcssPresetEnv -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/postcssPresetEnv -->
 
 # PostCSS Preset Env
 
@@ -14864,7 +14864,7 @@ Please note that custom settings should be valid JSON (i.e. functions are not al
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/postgresql -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/postgresql -->
 
 # PostgreSQL
 
@@ -15035,7 +15035,7 @@ https://livecodes.io/?template=postgresql
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/prolog -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/prolog -->
 
 # Prolog
 
@@ -15107,7 +15107,7 @@ https://livecodes.io/?template=prolog
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/pug -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/pug -->
 
 # Pug
 
@@ -15243,7 +15243,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/purgecss -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/purgecss -->
 
 # PurgeCSS
 
@@ -15358,7 +15358,7 @@ Please note that custom settings should be valid JSON (i.e. functions are not al
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/python-wasm -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/python-wasm -->
 
 # Python (Wasm)
 
@@ -15497,7 +15497,7 @@ https://livecodes.io/?template=python-wasm
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/python -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/python -->
 
 # Python
 
@@ -15572,7 +15572,7 @@ https://livecodes.io/?template=python
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/r -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/r -->
 
 # R
 
@@ -15762,7 +15762,7 @@ https://livecodes.io/?template=r
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/react-native-tsx -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/react-native-tsx -->
 
 # React Native (TSX)
 
@@ -15835,7 +15835,7 @@ https://livecodes.io/?template=react-native (uses JSX)
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/react-native -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/react-native -->
 
 # React Native
 
@@ -15910,7 +15910,7 @@ https://livecodes.io/?template=react-native
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/react-tsx -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/react-tsx -->
 
 # React (TSX)
 
@@ -15987,7 +15987,7 @@ Please note that custom settings should be valid JSON (i.e. functions are not al
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/react -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/react -->
 
 # React
 
@@ -16294,7 +16294,7 @@ https://livecodes.io/?template=react
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/reason -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/reason -->
 
 # Reason
 
@@ -16408,7 +16408,7 @@ https://livecodes.io/?template=reason
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/rescript -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/rescript -->
 
 # ReScript
 
@@ -16517,7 +16517,7 @@ https://livecodes.io/?template=rescript
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/richtext -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/richtext -->
 
 # Rich Text Editor
 
@@ -16583,7 +16583,7 @@ The Quill editor includes several plugins:
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/riot -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/riot -->
 
 # Riot.js
 
@@ -16685,7 +16685,7 @@ https://livecodes.io/?template=riot
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/ruby-wasm -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/ruby-wasm -->
 
 # Ruby (Wasm)
 
@@ -16767,7 +16767,7 @@ https://livecodes.io/?template=ruby-wasm
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/ruby -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/ruby -->
 
 # Ruby
 
@@ -16847,7 +16847,7 @@ https://livecodes.io/?template=ruby
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/sass -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/sass -->
 
 # Sass
 
@@ -17021,7 +17021,7 @@ Code formatting is not supported for the Sass indented syntax.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/scheme -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/scheme -->
 
 # Scheme
 
@@ -17138,7 +17138,7 @@ https://livecodes.io/?template=scheme
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/scss -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/scss -->
 
 # SCSS
 
@@ -17320,7 +17320,7 @@ Using [Prettier](https://prettier.io/).
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/solid -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/solid -->
 
 # Solid
 
@@ -17394,7 +17394,7 @@ https://livecodes.io/?template=solid (uses TSX)
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/solid.tsx -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/solid.tsx -->
 
 # Solid (TS)
 
@@ -17468,7 +17468,7 @@ https://livecodes.io/?template=solid
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/sql -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/sql -->
 
 # SQL (SQLite)
 
@@ -17631,7 +17631,7 @@ https://livecodes.io/?template=sql
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/stencil -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/stencil -->
 
 # Stencil
 
@@ -17730,7 +17730,7 @@ https://livecodes.io/?template=stencil
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/stylis -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/stylis -->
 
 # Stylis
 
@@ -17842,7 +17842,7 @@ Not supported.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/stylus -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/stylus -->
 
 # Stylus
 
@@ -17966,7 +17966,7 @@ Code formatting is not supported for Stylus.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/sucrase -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/sucrase -->
 
 # Sucrase
 
@@ -18028,7 +18028,7 @@ export const params = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/svelte -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/svelte -->
 
 # Svelte
 
@@ -18251,7 +18251,7 @@ https://livecodes.io/?template=svelte
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/tailwindcss -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/tailwindcss -->
 
 # Tailwind CSS
 
@@ -18350,7 +18350,7 @@ https://livecodes.io/?template=tailwindcss
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/tcl -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/tcl -->
 
 # Tcl
 
@@ -18416,7 +18416,7 @@ https://livecodes.io/?template=tcl
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/teal -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/teal -->
 
 # Teal
 
@@ -18477,7 +18477,7 @@ https://livecodes.io/?template=teal
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/tokencss -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/tokencss -->
 
 # Token CSS
 
@@ -18579,7 +18579,7 @@ Please note that custom settings should be valid JSON (i.e. functions are not al
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/tsx -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/tsx -->
 
 # TSX
 
@@ -18645,7 +18645,7 @@ Please note that custom settings should be valid JSON (i.e. functions are not al
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/twig -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/twig -->
 
 # Twig
 
@@ -18773,7 +18773,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/typescript -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/typescript -->
 
 # TypeScript
 
@@ -18871,7 +18871,7 @@ https://livecodes.io/?template=typescript
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/unocss -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/unocss -->
 
 # UnoCSS
 
@@ -19012,7 +19012,7 @@ https://livecodes.io/?template=unocss
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/vento -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/vento -->
 
 # Vento
 
@@ -19137,7 +19137,7 @@ export const config2 = {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/vue -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/vue -->
 
 # Vue SFC
 
@@ -19565,7 +19565,7 @@ https://livecodes.io/?template=vue
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/vue2 -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/vue2 -->
 
 # Vue 2 SFC
 
@@ -19625,7 +19625,7 @@ Using [Prettier](https://prettier.io/).
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/wat -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/wat -->
 
 # WebAssembly Text Format
 
@@ -19751,7 +19751,7 @@ https://livecodes.io/?template=wat
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/languages/windicss -->
+<!-- Source: https://livecodes.io/livecodes/docs/languages/windicss -->
 
 # Windi CSS
 
@@ -19847,7 +19847,7 @@ https://livecodes.io/?template=windicss
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/tutorials/index -->
+<!-- Source: https://livecodes.io/livecodes/docs/tutorials/index -->
 
 # Guides & Tutorials
 
@@ -19867,7 +19867,7 @@ Choose a guide above to get started!
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/tutorials/getting-started-guide -->
+<!-- Source: https://livecodes.io/livecodes/docs/tutorials/getting-started-guide -->
 
 import CodeBlock from '@theme/CodeBlock';
 import LiveCodes from '../../src/components/LiveCodes.tsx';
@@ -20007,7 +20007,7 @@ Now that you've created your first project, explore:
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/tutorials/building-your-first-app -->
+<!-- Source: https://livecodes.io/livecodes/docs/tutorials/building-your-first-app -->
 
 import CodeBlock from '@theme/CodeBlock';
 import LiveCodes from '../../src/components/LiveCodes.tsx';
@@ -20193,7 +20193,7 @@ Compare your version with the completed project above. Did you add any personal 
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/tutorials/embedding-playgrounds -->
+<!-- Source: https://livecodes.io/livecodes/docs/tutorials/embedding-playgrounds -->
 
 import CodeBlock from '@theme/CodeBlock';
 import LiveCodes from '../../src/components/LiveCodes';
@@ -20579,7 +20579,7 @@ Try adding these features:
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/tutorials/creating-shareable-urls -->
+<!-- Source: https://livecodes.io/livecodes/docs/tutorials/creating-shareable-urls -->
 
 # Creating Shareable URLs
 
@@ -20820,7 +20820,7 @@ Try adding these features:
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/bookmarklet -->
+<!-- Source: https://livecodes.io/livecodes/docs/bookmarklet -->
 
 # Bookmarklet
 
@@ -20859,7 +20859,7 @@ LiveCodes playground should open in a new window and [import](./features/import.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/gh-action -->
+<!-- Source: https://livecodes.io/livecodes/docs/gh-action -->
 
 # GitHub Action ⚡
 
@@ -20875,7 +20875,7 @@ For usage and more information, see the [action docs](https://github.com/live-co
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/markdown-to-livecodes -->
+<!-- Source: https://livecodes.io/livecodes/docs/markdown-to-livecodes -->
 
 # Markdown to LiveCodes
 
@@ -21468,7 +21468,7 @@ LiveCodes is natively supported by [Xlog](https://xlog.emadelsaid.com/) as an [o
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/contribution -->
+<!-- Source: https://livecodes.io/livecodes/docs/contribution -->
 
 # Contribution
 
@@ -21488,7 +21488,7 @@ Thank you :)
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/ai-guide -->
+<!-- Source: https://livecodes.io/livecodes/docs/ai-guide -->
 
 # AI Guide
 
@@ -21736,7 +21736,7 @@ const playground = await createPlayground('#container', {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/credits -->
+<!-- Source: https://livecodes.io/livecodes/docs/credits -->
 
 # Credits
 
@@ -21893,7 +21893,7 @@ Thank you ❤️
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/license -->
+<!-- Source: https://livecodes.io/livecodes/docs/license -->
 
 # License
 
@@ -21907,7 +21907,7 @@ Please consider [sponsoring LiveCodes](./sponsor.html.md) to support its mainten
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/tos -->
+<!-- Source: https://livecodes.io/livecodes/docs/tos -->
 
 # Terms of Service
 
@@ -22032,7 +22032,7 @@ For questions about these Terms, please contact us at <MailLink email="info&#64;
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/privacy -->
+<!-- Source: https://livecodes.io/livecodes/docs/privacy -->
 
 # Privacy Policy
 
@@ -22202,7 +22202,7 @@ For privacy-related questions or to exercise your data rights, contact us at:
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/sponsor -->
+<!-- Source: https://livecodes.io/livecodes/docs/sponsor -->
 
 import MailLink from '../src/components/MailLink.tsx';
 
@@ -22330,7 +22330,7 @@ If you are interested in becoming a sponsor of LiveCodes, please don't hesitate 
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/contact -->
+<!-- Source: https://livecodes.io/livecodes/docs/contact -->
 
 # Contact {#contact-custom-content-none}
 
@@ -22353,7 +22353,7 @@ Please follow the twitter account: [@livecodes_io](https://twitter.com/livecodes
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/about -->
+<!-- Source: https://livecodes.io/livecodes/docs/about -->
 
 # About us
 
@@ -22369,7 +22369,7 @@ Please consider [sponsoring LiveCodes](./sponsor.html.md) to support its mainten
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/examples/display-modes/index -->
+<!-- Source: https://livecodes.io/livecodes/docs/examples/display-modes/index -->
 
 # Display Modes
 
@@ -22380,7 +22380,7 @@ import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/examples/display-modes/full -->
+<!-- Source: https://livecodes.io/livecodes/docs/examples/display-modes/full -->
 
 # Display Mode: full
 
@@ -22390,7 +22390,7 @@ import LiveCodes from '../../../src/components/LiveCodes.tsx';
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/examples/display-modes/editor -->
+<!-- Source: https://livecodes.io/livecodes/docs/examples/display-modes/editor -->
 
 # Display Mode: editor
 
@@ -22400,7 +22400,7 @@ import LiveCodes from '../../../src/components/LiveCodes.tsx';
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/examples/display-modes/codeblock -->
+<!-- Source: https://livecodes.io/livecodes/docs/examples/display-modes/codeblock -->
 
 # Display Mode: codeblock
 
@@ -22410,7 +22410,7 @@ import LiveCodes from '../../../src/components/LiveCodes.tsx';
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/examples/display-modes/result -->
+<!-- Source: https://livecodes.io/livecodes/docs/examples/display-modes/result -->
 
 # Display Mode: result
 
@@ -22420,7 +22420,7 @@ import LiveCodes from '../../../src/components/LiveCodes.tsx';
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/index -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/index -->
 
 # \_internal
 
@@ -22465,7 +22465,7 @@ import LiveCodes from '../../../src/components/LiveCodes.tsx';
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/interfaces/API -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/interfaces/API -->
 
 # Interface: API
 
@@ -22894,7 +22894,7 @@ createPlayground("#container").then((playground) => {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/interfaces/AppConfig -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/interfaces/AppConfig -->
 
 # Interface: AppConfig
 
@@ -23055,7 +23055,7 @@ Sets result page [zoom level](https://livecodes.io/docs/features/result#result-p
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/interfaces/ContentConfig -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/interfaces/ContentConfig -->
 
 # Interface: ContentConfig
 
@@ -24659,7 +24659,7 @@ Version specified in [exported](https://livecodes.io/docs/features/export) proje
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/interfaces/EditorConfig -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/interfaces/EditorConfig -->
 
 # Interface: EditorConfig
 
@@ -24960,7 +24960,7 @@ false
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/interfaces/EditorPosition -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/interfaces/EditorPosition -->
 
 # Interface: EditorPosition
 
@@ -24993,7 +24993,7 @@ with 1-based line number and (optional) 1-based column number.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/interfaces/FormatterConfig -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/interfaces/FormatterConfig -->
 
 # Interface: FormatterConfig
 
@@ -25095,7 +25095,7 @@ false
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/interfaces/TestResult -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/interfaces/TestResult -->
 
 # Interface: TestResult
 
@@ -25151,7 +25151,7 @@ The path to the test in the test suite.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/interfaces/Types -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/interfaces/Types -->
 
 # Interface: Types
 
@@ -25163,7 +25163,7 @@ Custom type declarations for module imports.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/interfaces/UserConfig -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/interfaces/UserConfig -->
 
 # Interface: UserConfig
 
@@ -25769,7 +25769,7 @@ false
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/APICommands -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/APICommands -->
 
 # Type Alias: APICommands
 
@@ -25783,7 +25783,7 @@ API commands for the SDK.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/AppLanguage -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/AppLanguage -->
 
 # Type Alias: AppLanguage
 
@@ -25797,7 +25797,7 @@ Supported UI/app languages for localization.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/CDN -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/CDN -->
 
 # Type Alias: CDN
 
@@ -25811,7 +25811,7 @@ CDN providers for external resources.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/CodejarTheme -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/CodejarTheme -->
 
 # Type Alias: CodejarTheme
 
@@ -25825,7 +25825,7 @@ Themes for the CodeJar editor.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/CodemirrorTheme -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/CodemirrorTheme -->
 
 # Type Alias: CodemirrorTheme
 
@@ -25839,7 +25839,7 @@ Themes for the CodeMirror editor.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/CssPresetId -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/CssPresetId -->
 
 # Type Alias: CssPresetId
 
@@ -25853,7 +25853,7 @@ CSS presets.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/EditorId -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/EditorId -->
 
 # Type Alias: EditorId
 
@@ -25867,7 +25867,7 @@ The identifier for each code editor pane in the playground.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/EditorTheme -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/EditorTheme -->
 
 # Type Alias: EditorTheme
 
@@ -25883,7 +25883,7 @@ See [docs](https://livecodes.io/docs/configuration/configuration-object#editorth
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/MonacoTheme -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/MonacoTheme -->
 
 # Type Alias: MonacoTheme
 
@@ -25897,7 +25897,7 @@ Themes for the Monaco editor.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/Processor -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/Processor -->
 
 # Type Alias: Processor
 
@@ -25911,7 +25911,7 @@ CSS preprocessors and PostCSS plugins.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/ScreenName -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/ScreenName -->
 
 # Type Alias: ScreenName
 
@@ -25925,7 +25925,7 @@ Screen names in the app.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/TemplateName -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/TemplateName -->
 
 # Type Alias: TemplateName
 
@@ -25939,7 +25939,7 @@ Starter template names.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/Theme -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/Theme -->
 
 # Type Alias: Theme
 
@@ -25953,7 +25953,7 @@ The app theme mode.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/ToolName -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/ToolName -->
 
 # Type Alias: ToolName
 
@@ -25967,7 +25967,7 @@ Tools in the tools pane.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/ToolsPaneStatus -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/ToolsPaneStatus -->
 
 # Type Alias: ToolsPaneStatus
 
@@ -25981,7 +25981,7 @@ Status of the tools pane.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/WatchCode -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/WatchCode -->
 
 # Type Alias: WatchCode()
 
@@ -26023,7 +26023,7 @@ This includes changes in:
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/WatchConsole -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/WatchConsole -->
 
 # Type Alias: WatchConsole()
 
@@ -26055,7 +26055,7 @@ Called when console methods are called in the result page.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/WatchDestroy -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/WatchDestroy -->
 
 # Type Alias: WatchDestroy()
 
@@ -26087,7 +26087,7 @@ Called when the playground is destroyed.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/WatchLoad -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/WatchLoad -->
 
 # Type Alias: WatchLoad()
 
@@ -26119,7 +26119,7 @@ Called when the playground first loads.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/WatchReady -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/WatchReady -->
 
 # Type Alias: WatchReady()
 
@@ -26151,7 +26151,7 @@ Called when a new project is loaded (including when [imported](https://livecodes
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/WatchRun -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/WatchRun -->
 
 # Type Alias: WatchRun()
 
@@ -26183,7 +26183,7 @@ Called when running the playground code.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/internal/type-aliases/WatchTests -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/internal/type-aliases/WatchTests -->
 
 # Type Alias: WatchTests()
 
@@ -26215,7 +26215,7 @@ Called when test results are available.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/interfaces/Code -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/interfaces/Code -->
 
 # Interface: Code
 
@@ -26328,7 +26328,7 @@ The language of the code.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/interfaces/Config -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/interfaces/Config -->
 
 # Interface: Config
 
@@ -28815,7 +28815,7 @@ Sets result page [zoom level](https://livecodes.io/docs/features/result#result-p
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/interfaces/EmbedOptions -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/interfaces/EmbedOptions -->
 
 # Interface: EmbedOptions
 
@@ -32769,7 +32769,7 @@ The `view` option has been moved to `config.view`. For headless mode use `headle
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/interfaces/Playground -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/interfaces/Playground -->
 
 # Interface: Playground
 
@@ -33271,7 +33271,7 @@ createPlayground("#container").then((playground) => {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/type-aliases/Language -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/type-aliases/Language -->
 
 # Type Alias: Language
 
@@ -33285,7 +33285,7 @@ Language name, alias or extension.
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/functions/compress -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/functions/compress -->
 
 # Function: compress()
 
@@ -33324,7 +33324,7 @@ const compressed = compress(JSON.stringify(config));
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/functions/createPlayground -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/functions/createPlayground -->
 
 # Function: createPlayground()
 
@@ -33373,7 +33373,7 @@ A promise that resolves to a [`Playground`](https://livecodes.io/docs/api/interf
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/functions/decompress -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/functions/decompress -->
 
 # Function: decompress()
 
@@ -33419,7 +33419,7 @@ if (decompressed) {
 
 ---
 
-<!-- Source: https://livecodes.io/playground/docs/api/functions/getPlaygroundUrl -->
+<!-- Source: https://livecodes.io/livecodes/docs/api/functions/getPlaygroundUrl -->
 
 # Function: getPlaygroundUrl()
 
