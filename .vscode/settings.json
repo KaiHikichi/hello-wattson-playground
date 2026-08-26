@@ -27,5 +27,34 @@
     "Accessibility",
     "self-hosting"
   ],
-  "html.customData": ["./.vscode/html.html-data.json"]
+  "html.customData": [
+    "./.vscode/html.html-data.json"
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#1f3830",
+    "activityBar.background": "#1f3830",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#7b5090",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#1f3830",
+    "statusBar.background": "#0d1714",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#1f3830",
+    "statusBarItem.remoteBackground": "#6a457a",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#0d1714",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#0d171499",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "activityBarTop.activeBackground": "#1f3830",
+    "activityBarTop.background": "#1f3830",
+    "activityBarTop.foreground": "#e7e7e7",
+    "activityBarTop.inactiveForeground": "#e7e7e799",
+    "commandCenter.foreground": "#e7e7e7",
+    "statusBar.debuggingBackground": "#0d1714",
+    "statusBar.debuggingForeground": "#e7e7e7"
+  },
+  "peacock.remoteColor": "#0d1714"
 }
