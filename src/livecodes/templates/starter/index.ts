@@ -57,6 +57,7 @@ import { riotStarter } from './riot-starter';
 import { rubyStarter } from './ruby-starter';
 import { rubyWasmStarter } from './ruby-wasm-starter';
 import { schemeStarter } from './scheme-starter';
+import { scienceAliveStarter } from './sciencealive-starter';
 import { shadcnuiStarter } from './shadcn-ui-starter';
 import { solidStarter } from './solid-starter';
 import { sqlStarter } from './sql-starter';
@@ -72,6 +73,7 @@ import { watStarter } from './wat-starter';
 
 export const starterTemplates = [
   blank,
+  scienceAliveStarter,
   javascriptStarter,
   typescriptStarter,
   reactStarter,

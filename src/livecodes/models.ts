@@ -218,6 +218,7 @@ export interface Compilers {
 }
 
 export type TemplateAlias =
+  | 'sa'
   | 'js'
   | 'ts'
   | 'ng'

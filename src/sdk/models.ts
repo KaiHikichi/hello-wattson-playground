@@ -346,6 +346,7 @@ export type AppLanguage =
  */
 export type TemplateName =
   | 'blank'
+  | 'science-alive'
   | 'javascript'
   | 'typescript'
   | 'react'
