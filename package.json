@@ -71,7 +71,8 @@
     "i18n-update-pull": "node ./scripts/i18n-import.mjs",
     "i18n-exclude": "node ./scripts/i18n-exclude.js",
     "i18n-lokalise-json": "node ./scripts/i18n-lokalise-json.mjs",
-    "validate-skills": "npx @tanstack/intent@latest validate .agents/skills"
+    "validate-skills": "npx @tanstack/intent@latest validate .agents/skills",
+    "gen": "tsx ./sciencealive/generateURL.ts"
   },
   "dependencies": {
     "@live-codes/solid-sdk": "0.5.0",
@@ -153,7 +154,8 @@
     "tslib": "2.6.2",
     "typedoc": "0.25.13",
     "typedoc-plugin-missing-exports": "2.2.0",
-    "typescript": "5.4.5"
+    "typescript": "5.4.5",
+    "tsx": "4.19.2"
   },
   "prettier": {
     "semi": true,
