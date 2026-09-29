@@ -134,6 +134,7 @@ import { permanentUrlService } from './services/permanent-url';
 import {
   createStores,
   fakeStorage,
+  initializeActivityStore,
   initializeStores,
   type StorageItem,
   type Stores,
@@ -5372,6 +5373,8 @@ const initializePlayground = async (
     window.history.replaceState(null, '', url.href);
   }
   await initializeStores(stores, isEmbed);
+  // Science Alive fork (#208): keep the projects store so simple-mode activity links save
+  if (isEmbed && params.activityId) await initializeActivityStore(stores);
 
   const activityId = params.activityId;
   let activityConfig: Partial<Config> | undefined;
