@@ -224,6 +224,39 @@ test.describe('SDK options', () => {
     expect(page.url()).toContain(`activityId=${activityId}`);
   });
 
+  test('simple link ignores app settings in a saved activity', async ({ page, getTestUrl }) => {
+    const activityId = 'test-activity-' + Date.now();
+    const markup: Config['markup'] = { language: 'markdown', content: '# Saved Content' };
+
+    // a full-mode visit ("Edit on LiveCodes") saves app settings into the activity record
+    await page.goto(
+      getPlaygroundUrl({
+        appUrl: getTestUrl(),
+        activityId,
+        config: { markup, editorMode: 'vim' },
+      }),
+    );
+    const full = await getLoadedApp(page);
+    await waitForEditorFocus(full.app);
+    await full.waitForResultUpdate();
+    await page.keyboard.press('Control+S');
+    await page.waitForTimeout(500); // give the async IndexedDB write time to complete
+
+    await page.goto(
+      getPlaygroundUrl({
+        appUrl: getTestUrl(),
+        activityId,
+        config: { mode: 'simple', markup: { language: 'markdown', content: '# Different' } },
+      }),
+    );
+    const { app, getResult, waitForResultUpdate } = await getLoadedApp(page);
+    await waitForResultUpdate();
+
+    await expect(app.locator('body.simple-mode')).toHaveCount(1);
+    await expect(app.locator('#editor-mode')).not.toContainText(/vim/i);
+    expect(await getResult().innerText('h1')).toBe('Saved Content');
+  });
+
   test('options override: template -> import -> config -> params', async ({ page, getTestUrl }) => {
     const url = getPlaygroundUrl({
       appUrl: getTestUrl(),
