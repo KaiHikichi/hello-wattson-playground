@@ -128,6 +128,75 @@ test.describe('SDK options', () => {
     expect(titleText).toBe('Starter Content'); // saved project wins, not "Different Starter"
   });
 
+  test('simple mode + activityId restores work', async ({ page, getTestUrl }) => {
+    const activityId = 'test-activity-' + Date.now();
+    const makeConfig = (content: string): Partial<Config> => ({
+      mode: 'simple',
+      markup: { language: 'markdown', content },
+    });
+
+    await page.goto(
+      getPlaygroundUrl({ appUrl: getTestUrl(), activityId, config: makeConfig('# Starter') }),
+    );
+    const first = await getLoadedApp(page);
+    await first.waitForResultUpdate();
+    await first.app.locator('#editors .monaco-editor').first().click();
+
+    // type to trigger autosave (no Ctrl+S)
+    await page.keyboard.type('Typed by kid ');
+    await page.waitForTimeout(2000); // give autosave and the async IndexedDB write time to complete
+
+    await page.goto(
+      getPlaygroundUrl({ appUrl: getTestUrl(), activityId, config: makeConfig('# Different') }),
+    );
+    const second = await getLoadedApp(page);
+    await second.waitForResultUpdate();
+
+    expect(await second.getResult().innerText('h1')).toContain('Typed by kid');
+  });
+
+  test('simple mode without activityId writes nothing', async ({ page, getTestUrl }) => {
+    await page.goto(
+      getPlaygroundUrl({
+        appUrl: getTestUrl(),
+        config: { mode: 'simple', markup: { language: 'markdown', content: '# Starter' } },
+      }),
+    );
+    const { app, waitForResultUpdate } = await getLoadedApp(page);
+    await waitForResultUpdate();
+    await app.locator('#editors .monaco-editor').first().click();
+
+    await page.keyboard.type('Typed ');
+    await page.waitForTimeout(2000);
+
+    const written = await page.evaluate(async () => ({
+      keys: Object.keys(localStorage).filter((k) => k.startsWith('__livecodes')),
+      dbs: (await indexedDB.databases()).map((d) => d.name).filter((n) => n?.includes('livecodes')),
+    }));
+    expect(written).toEqual({ keys: [], dbs: [] });
+  });
+
+  test('simple mode + activityId ignores saved userConfig', async ({ page, getTestUrl }) => {
+    const activityId = 'test-activity-' + Date.now();
+    const url = getPlaygroundUrl({
+      appUrl: getTestUrl(),
+      activityId,
+      config: { mode: 'simple', markup: { language: 'markdown', content: '# Starter' } },
+    });
+
+    // seed a user config on the app origin, as an earlier full-mode visit would
+    await page.goto(getTestUrl());
+    await page.evaluate(() =>
+      localStorage.setItem('__livecodes_user_config__', JSON.stringify({ editorMode: 'vim' })),
+    );
+
+    await page.goto(url);
+    const { app, waitForResultUpdate } = await getLoadedApp(page);
+    await waitForResultUpdate();
+
+    await expect(app.locator('#editor-mode')).not.toContainText(/vim/i);
+  });
+
   test('save keeps activityId in URL', async ({ page, getTestUrl }) => {
     const activityId = 'test-activity-' + Date.now();
 
@@ -153,6 +222,39 @@ test.describe('SDK options', () => {
     await page.waitForTimeout(500); // give the async IndexedDB write time to complete
 
     expect(page.url()).toContain(`activityId=${activityId}`);
+  });
+
+  test('simple link ignores app settings in a saved activity', async ({ page, getTestUrl }) => {
+    const activityId = 'test-activity-' + Date.now();
+    const markup: Config['markup'] = { language: 'markdown', content: '# Saved Content' };
+
+    // a full-mode visit ("Edit on LiveCodes") saves app settings into the activity record
+    await page.goto(
+      getPlaygroundUrl({
+        appUrl: getTestUrl(),
+        activityId,
+        config: { markup, editorMode: 'vim' },
+      }),
+    );
+    const full = await getLoadedApp(page);
+    await waitForEditorFocus(full.app);
+    await full.waitForResultUpdate();
+    await page.keyboard.press('Control+S');
+    await page.waitForTimeout(500); // give the async IndexedDB write time to complete
+
+    await page.goto(
+      getPlaygroundUrl({
+        appUrl: getTestUrl(),
+        activityId,
+        config: { mode: 'simple', markup: { language: 'markdown', content: '# Different' } },
+      }),
+    );
+    const { app, getResult, waitForResultUpdate } = await getLoadedApp(page);
+    await waitForResultUpdate();
+
+    await expect(app.locator('body.simple-mode')).toHaveCount(1);
+    await expect(app.locator('#editor-mode')).not.toContainText(/vim/i);
+    expect(await getResult().innerText('h1')).toBe('Saved Content');
   });
 
   test('options override: template -> import -> config -> params', async ({ page, getTestUrl }) => {

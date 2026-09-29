@@ -30,6 +30,10 @@ export const initializeStores = async (stores: Stores, isEmbed: boolean) => {
   stores.sync = await createStorage('__livecodes_sync_data__', isEmbed);
 };
 
+export const initializeActivityStore = async (stores: Stores) => {
+  stores.projects = await createProjectStorage('__livecodes_data__', false);
+};
+
 export const initializeSimpleStores = async (stores: Stores, isEmbed: boolean) => {
   if (isEmbed) return;
   stores.recover = createSimpleStorage('__livecodes_project_recover__', isEmbed);
