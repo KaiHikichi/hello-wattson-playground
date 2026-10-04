@@ -1,4 +1,4 @@
-import { isSaveAllowedParent, resolveParentOrigin } from '../embed-parent';
+import { getEmbedParentOrigin, isSaveAllowedParent, resolveParentOrigin } from '../embed-parent';
 
 describe('isSaveAllowedParent', () => {
   test.each([
@@ -51,5 +51,32 @@ describe('resolveParentOrigin', () => {
     expect(resolveParentOrigin({ referrer: '' })).toBeNull();
     expect(resolveParentOrigin({ referrer: 'nope' })).toBeNull();
     expect(resolveParentOrigin({ ancestorOrigins: null })).toBeNull();
+  });
+});
+
+describe('getEmbedParentOrigin', () => {
+  test('returns undefined when the window is its own top', () => {
+    const win: any = {};
+    win.top = win;
+    expect(getEmbedParentOrigin(win as Window)).toBeUndefined();
+  });
+
+  test('returns the parent origin for a nested window', () => {
+    const win = {
+      top: {},
+      location: { ancestorOrigins: ['https://hellowattson.ca'] },
+      document: { referrer: '' },
+    };
+    expect(getEmbedParentOrigin(win as unknown as Window)).toBe('https://hellowattson.ca');
+  });
+
+  test('fails closed with null when reading the window throws', () => {
+    const win = {
+      top: {},
+      get location(): never {
+        throw new Error('cross-origin');
+      },
+    };
+    expect(getEmbedParentOrigin(win as unknown as Window)).toBeNull();
   });
 });
