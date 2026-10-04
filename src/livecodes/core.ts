@@ -159,8 +159,9 @@ import {
   stringify,
   toDataUrl,
 } from './utils';
-// Wattson (#129): underline the failing line after a Python run error
+// Science Alive fork (#300): which embed parents may save activity work
 import { getEmbedParentOrigin, isSaveAllowedParent } from './utils/embed-parent';
+// Wattson (#129): underline the failing line after a Python run error
 import { parsePythonError } from './utils/python-error';
 import {
   fontDMSansUrl,
