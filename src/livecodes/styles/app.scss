@@ -1823,6 +1823,7 @@ a.editor-title {
     width: 125%;
 
     #run-button {
+      flex-shrink: 0;
       font-size: 16px;
       gap: 6px;
       height: 40px;
